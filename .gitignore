@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#backend
+/backend_sanity/node_modules
+/backend_sanity/dist
+
+# frontend node modules
+/frontend_react/node_modules
+
+/frontend_react/.env
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+
+#firebase
+/shareme_frontend/.firebase
+
+# Firebase cache
+.firebase/
+/shareme_frontend/.firebaserc
+/shareme_frontend/firebase.json
+
+# testingg
+/coverage
+
+# production
+/build
+/shareme_frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
