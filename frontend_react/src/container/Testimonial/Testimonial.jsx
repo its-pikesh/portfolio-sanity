@@ -42,6 +42,16 @@ const Testimonial = () => {
               <div>
                 <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
                 <h5 className="p-text">{testimonials[currentIndex].company}</h5>
+                {testimonials[currentIndex].profileUrl && (
+                  <a
+                    href={testimonials[currentIndex].profileUrl}
+                    style={{ textDecoration: "none" }}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4 className="bold-text">CheckOut my Profile 🚀</h4>
+                  </a>
+                )}
               </div>
             </div>
           </div>

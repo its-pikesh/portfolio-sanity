@@ -105,6 +105,19 @@ const Work = () => {
               <p className="p-text" style={{ marginTop: 10 }}>
                 {work.description}
               </p>
+              <div className="git-btns">
+                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                  Live Demo
+                </a>
+                <a
+                  href={work.codeLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="selected-dark"
+                >
+                  GitHub
+                </a>
+              </div>
 
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work?.tags[0]}</p>
