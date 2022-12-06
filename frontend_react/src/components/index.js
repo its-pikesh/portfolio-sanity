@@ -1,5 +1,5 @@
-// import NavigationDots from "./NavigationDots";
-// import SocialMedia from "./SocialMedia";
+import NavigationDots from "./NavigationDots";
+import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar/Navbar";
 
-export { Navbar };
+export { NavigationDots, SocialMedia, Navbar };
